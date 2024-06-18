@@ -1,8 +1,10 @@
-nginx
+# ------ 项目自带
+#nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
+# ------ 新增
 # python3镜像
 faucet/python3
