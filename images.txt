@@ -8,3 +8,5 @@
 # ------ 新增
 # python3镜像
 faucet/python3
+# 小雅alist
+xiaoyaliu/alist
