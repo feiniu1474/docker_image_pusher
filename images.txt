@@ -7,6 +7,6 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 # ------ 新增
 # python3镜像
-faucet/python3
+python:3.9.19
 # 小雅alist
 xiaoyaliu/alist
