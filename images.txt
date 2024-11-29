@@ -12,3 +12,5 @@ arm64v8/python:3.9-alpine3.19
 --platform arm64 python:3.9.19
 # 小雅alist
 xiaoyaliu/alist
+# mysql
+arm64v8/mysql:8.0.30
