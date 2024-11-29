@@ -6,6 +6,9 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 # ------ 新增
+#jdk
+openjdk:8-jdk-alpine
+--platform=linux/arm64/v8 openjdk:8-jdk-alpine
 # nginx
 nginx:1.22.1
 --platform=linux/arm64/v8 nginx:1.22.1
