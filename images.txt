@@ -9,7 +9,6 @@
 # python3镜像
 python:3.9.19
 arm64v8/python:3.9-alpine3.19
---platform arm64 python:3.9.19
 # 小雅alist
 xiaoyaliu/alist
 # mysql
