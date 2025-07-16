@@ -21,3 +21,6 @@ arm64v8/mysql:8.0.30
 python:3.9.19
 # 小雅alist
 xiaoyaliu/alist
+# minio
+bitnami/minio:latest
+bitnami/minio:2023
