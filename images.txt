@@ -1,30 +1,31 @@
-# ------ 项目自带
-#nginx
-#支持私库
-#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-#xhofe/alist:latest
-#支持指定架构
-#--platform=linux/arm64 xiaoyaliu/alist
-#jdk
-#openjdk:8-jdk-alpine
-#--platform=linux/arm64/v8 openjdk:8-jdk-alpine
-# nginx
-nginx:1.22.1
---platform=linux/arm64/v8 nginx:1.22.1
-# redis
-redis:7.0.9
---platform=linux/arm64/v8 redis:7.0.9
-# mysql
-arm64v8/mysql:8.0.30
-# python3镜像
-python:3.9.19
-# 小雅alist
-xiaoyaliu/alist
-# minio
-minio/minio:latest
-# bitnami-minio
-bitnami/minio:latest
-bitnami/minio:2023
+# # ------ 项目自带
+# #nginx
+# #支持私库
+# #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+# #xhofe/alist:latest
+# #支持指定架构
+# #--platform=linux/arm64 xiaoyaliu/alist
+# #jdk
+# openjdk:8-jdk-alpine
+# --platform=linux/arm64/v8 openjdk:8-jdk-alpine
+# #nginx
+# nginx:1.22.1
+# --platform=linux/arm64/v8 nginx:1.22.1
+# #redis
+# redis:7.0.9
+# --platform=linux/arm64/v8 redis:7.0.9
+# #mysql
+# arm64v8/mysql:8.0.30
+# #python3镜像
+# python:3.9.19
+# #小雅alist
+# xiaoyaliu/alist
+# #minio
+# minio/minio:latest
 # ------ 新增20260601
-#portainer
+#portainer arm64
 --platform=linux/arm64 portainer/portainer-ce:2.42.0-linux-arm64
+#mysql arm64
+--platform=linux/arm64/v8 mysql:8.0.32
+#minio arm64
+--platform=linux/arm64/v8 minio/minio:latest
