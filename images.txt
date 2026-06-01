@@ -23,9 +23,11 @@
 # #minio
 # minio/minio:latest
 # ------ 新增20260601
-#portainer arm64
---platform=linux/arm64 portainer/portainer-ce:2.42.0-linux-arm64
-#mysql arm64
---platform=linux/arm64/v8 mysql:8.0.32
-#minio arm64
---platform=linux/arm64/v8 minio/minio:latest
+# #portainer arm64
+# --platform=linux/arm64 portainer/portainer-ce:2.42.0-linux-arm64
+# #mysql arm64
+# --platform=linux/arm64/v8 mysql:8.0.32
+# #minio arm64
+# --platform=linux/arm64/v8 minio/minio:latest
+#openjdk-21 arm64
+--=platform=linux/arm64/v8 openjdk:21-jdk-slim
