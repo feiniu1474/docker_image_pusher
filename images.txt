@@ -26,3 +26,5 @@ minio/minio:latest
 # bitnami-minio
 bitnami/minio:latest
 bitnami/minio:2023
+#portainer
+portainer/portainer-ce:2.42.0-linux-arm64
