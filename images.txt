@@ -31,5 +31,7 @@
 # --platform=linux/arm64/v8 minio/minio:latest
 #eclipse-temurin:17-jre arm64(xxl-job运行环境)
 # --platform=linux/arm64/v8 eclipse-temurin:17-jre
-# java jre 8 (eclipse-temurin):8u492-jdk arm64
---platform=linux/arm64/v8 eclipse-temurin:8-jdk-jammy
+# # java jre 8 (eclipse-temurin):8u492-jdk arm64
+# --platform=linux/arm64/v8 eclipse-temurin:8-jdk-jammy
+#elestio/minio arm64
+--platform=linux/arm64 elestio/minio:latest
