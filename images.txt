@@ -34,4 +34,5 @@
 # #elestio/minio arm64
 # --platform=linux/arm64 elestio/minio:latest
 #minio/minio arm64
---platform=linux/arm64 minio/minio:latest
+# --platform=linux/arm64 minio/minio:latest
+--platform=linux/arm64 minio/minio:RELEASE.2023-10-24T04-42-36Z
