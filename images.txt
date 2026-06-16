@@ -35,4 +35,7 @@
 # --platform=linux/arm64 elestio/minio:latest
 #minio/minio arm64
 # --platform=linux/arm64 minio/minio:latest
---platform=linux/arm64 minio/minio:RELEASE.2023-10-24T04-42-36Z
+# --platform=linux/arm64 minio/minio:RELEASE.2023-10-24T04-42-36Z
+# RuView（别名WiFi DensePose）是全球热门WiFi-CSI无线人体感知开源方案
+--platform=linux/arm64 ruvnet/wifi-densepose:latest
+--platform=linux/amd64 ruvnet/wifi-densepose:latest
